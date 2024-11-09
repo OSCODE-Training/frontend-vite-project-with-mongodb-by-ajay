@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.main-container{
+    width: 100%;
+    height: 15vh !important;
+    background: rgb(179, 176, 176);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 0px 14px 1px rgb(196, 198, 199);
+
+
+}
+.man-container-for-home{
+    width: 30%;
+    height: inherit;
+    /* background: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: larger;
+    letter-spacing: 2px;
+    -webkit-text-stroke-width: 1px;
+}
+.main-container-for-login-and-adddata{
+    width: 50%;
+    height: inherit;
+    /* background: rgb(53, 99, 198); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-size: larger;
+    letter-spacing: 2px;
+    -webkit-text-stroke-width: 1px;
+    
+}
+.add-data{
+    cursor: pointer;
+}
+.login{
+    cursor: pointer;
+}
+.showdata-div-container{
+    width: 100%;
+    min-height: 500px;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.showdatafunction-main-container{
+    width: 80%;
+    height: 80px;
+    background:  #f0f0f0;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 14px 1px rgb(196, 198, 199);
+}
